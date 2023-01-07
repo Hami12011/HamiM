@@ -1,14 +1,6 @@
 #coding=utf
 #DECODE BY ASAD ALI
-import os,sys,time,json,re,string,platform,base64
-try:
-    import requests
-    from concurrent.futures import ThreadPoolExecutor as ThreadPool
-    import mechanize
-    from requests.exceptions import ConnectionError
-except ModuleNotFoundError:
-    os.system('pip install mechanize requests futures==2 > /dev/null')
-    os.system('python ali.py')
+import os,sys,time,json,random,re,string,platform,base64
 P = '\x1b[1;97m' # PUTIH
 M = '\x1b[1;91m' # MERAH
 H = '\x1b[1;92m' # HIJAU
@@ -28,6 +20,7 @@ BM = '\x1b[1;101m' # BELAJANG MERAH
 BA = '\x1b[1;100m' # BELAKANG ABU ABU
 my_color = [
  P, M, H, K, B, U, O, N]
+ 
 logo =  """   
     
           ###     ######     ###    ########  
