@@ -28,7 +28,7 @@ BM = '\x1b[1;101m' # BELAJANG MERAH
 BA = '\x1b[1;100m' # BELAKANG ABU ABU
 my_color = [
  P, M, H, K, B, U, O, N]
-warna = random.choice(my_color)
+
 logo =  """   
     
           ###     ######     ###    ########  
