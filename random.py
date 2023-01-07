@@ -1,6 +1,6 @@
 #coding=utf
 #DECODE BY ASAD ALI
-import os,sys,time,json,random,re,string,platform,base64
+import os,sys,time,json,re,string,platform,base64
 try:
     import requests
     from concurrent.futures import ThreadPoolExecutor as ThreadPool
