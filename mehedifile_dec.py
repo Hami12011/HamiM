@@ -102,33 +102,6 @@ logo="""
 \033[1;92m••••••••••••••••••••••••••••••••••••••••••••••••••••••••
 """
 
-
-try:
-    key1=open("/storage/emulated/0/android8.txt",'r').read()
-except IOError:
-    kok=open("/storage/emulated/0/android8.txt",'w')
-    myid=uuid.uuid4().hex[:12]
-    f="Hidden-virus"
-    key=myid+f
-    kok.write(key)
-    kok.close()
-    print(key)
-
-a=requests.get("https://raw.githubusercontent.com/MAHADI-143/apporved/main/250%20Tool").text
-b=str(a)
-key1=open("/storage/emulated/0/android8.txt",'r').read()
-key2=str(key1)  
-if key2 in b:
-    pass
-    
-else:
-    os.system("clear")
-    print
-    print(green+"Your key  : "+key2)
-    print(yellow+"\n\t\tContact Admin ")
-    os.system('xdg-open https://www.facebook.com/4FR1D1.143')
-    exit()
-    
 os.system("clear")
 def hasil(OK,cp):
 	if not len(OK) != 0:
