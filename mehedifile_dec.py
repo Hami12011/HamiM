@@ -115,9 +115,6 @@ def hasil(OK,cp):
 def sarfraz():
     os.system('clear')
     print(logo)
-    ipm = requests.get(url_ip).json()
-    todz = ''
-    IP = ipm['origin']
     print
     print(red+' [1] START CRACK')
     print(green +' [2] FILE MAKE')
