@@ -214,7 +214,7 @@ class __xxx__:
                     "upgrade-insecure-requests":"1",
                     "origin":"https://"+cebok,
                     "content-type":"application/x-www-form-urlencoded",
-                    "user-agent":"Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-G780G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/16.0 Chrome/92.0.4515.166 Mobile Safari/537.36",
+                    "user-agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0",
                     "accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
                     "x-requested-with":"XMLHttpRequest",
                     "sec-fetch-site":"same-origin",
