@@ -157,7 +157,7 @@ class __xxx__:
                 header = {
                     "Host":cebok,
                     "upgrade-insecure-requests":"1",
-                    "user-agent":"NokiaC3-00/5.0 (08.63) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+",
+                    "user-agent":"Nokia603/112.010.1404 (Symbian/3; Series60/5.4 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 NokiaBrowser/8.2.1.20 3gpp-gba",
                     "accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
                     "dnt":"1",
                     "x-requested-with":"mark.via.gp",
