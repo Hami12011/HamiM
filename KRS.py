@@ -24,7 +24,7 @@ useragent=[]
 uaku2=[]
 ugen2=[]
 ugen=[]
-aqib_ua = Mozilla/5.0 (Linux; Android 7; Mi 9T Pro Build/QK0CHVQKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.4728.123 Mobile Safari/537.36 
+aqib_ua = Mozilla/5.0 (Linux; Android 7; Mi 9T Pro Build/QK0CHVQKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.4728.123 Mobile Safari/537.36, 
 for xd in range(10000):
     aa='Mozilla/5.0 (Linux; Android 13;'
     b=random.choice(['7.0','8.1.0','9','10','11','12'])
